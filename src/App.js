@@ -8,9 +8,8 @@ export default function App() {
 
   const cards = data.map(item => {
     return (
-      <section>
+      <section key={item.id}>
         <Card 
-          key={item.id}
           item={item}
         />
         <hr></hr>
