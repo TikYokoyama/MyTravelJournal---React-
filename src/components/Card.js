@@ -17,9 +17,11 @@ export default function Card(props) {
                         <a className="card--linkG" href={props.item.googleMapsUrl}>View on Google Maps</a>
                     </div>
                 </span>
-                <h2 className="card--place">{props.item.title}</h2>
-                <h3 className="card--visitDate">{props.item.startDate} - ${props.item.endDate}</h3>
-                <p className="card--placeInfo">{props.item.description}</p>
+                <div className="card--text">
+                    <h2 className="card--place">{props.item.title}</h2>
+                    <h3 className="card--visitDate">{props.item.startDate} - ${props.item.endDate}</h3>
+                    <p className="card--placeInfo">{props.item.description}</p>
+                </div>
             </div>
         </section>
     )

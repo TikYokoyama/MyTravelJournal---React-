@@ -56,7 +56,7 @@ span i{
 .card--placeInfo{
   margin: 10px 15px;
   max-width: 500px;
-  /* text-align: justify; */
+  text-align: justify;
 }
 
 .card--location{
@@ -81,3 +81,19 @@ hr{
   width: 90%;
   background-color: #F55A5A;
 }
+
+@media screen and (max-width: 480px) {
+  .card{
+    flex-wrap: wrap;
+  }
+  .card--location{
+    justify-content: center;
+  }
+  .card--text{
+    justify-content: center;
+  }
+  .card--placeInfo{
+    max-width: 350px;
+    /* text-align: justify; */
+  }
+} 
