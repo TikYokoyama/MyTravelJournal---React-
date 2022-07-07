@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MyTravelJournal---React-/static/css/main.3449bf8e.css",
-    "main.js": "/MyTravelJournal---React-/static/js/main.a549cb0d.js",
+    "main.css": "/MyTravelJournal---React-/static/css/main.cbd6378a.css",
+    "main.js": "/MyTravelJournal---React-/static/js/main.b87b4a58.js",
     "static/js/787.d63bd0f0.chunk.js": "/MyTravelJournal---React-/static/js/787.d63bd0f0.chunk.js",
     "static/media/kyoto.jpg": "/MyTravelJournal---React-/static/media/kyoto.1a6e25ac7519986e49d5.jpg",
     "static/media/akihabara.jpg": "/MyTravelJournal---React-/static/media/akihabara.0a8c00026aaa83ece5af.jpg",
@@ -25,12 +25,12 @@
     "static/media/new york.jpg": "/MyTravelJournal---React-/static/media/new york.e6a522f55d43f412c39c.jpg",
     "static/media/globe.png": "/MyTravelJournal---React-/static/media/globe.e4c1cb6b5149ac77f2d4.png",
     "index.html": "/MyTravelJournal---React-/index.html",
-    "main.3449bf8e.css.map": "/MyTravelJournal---React-/static/css/main.3449bf8e.css.map",
-    "main.a549cb0d.js.map": "/MyTravelJournal---React-/static/js/main.a549cb0d.js.map",
+    "main.cbd6378a.css.map": "/MyTravelJournal---React-/static/css/main.cbd6378a.css.map",
+    "main.b87b4a58.js.map": "/MyTravelJournal---React-/static/js/main.b87b4a58.js.map",
     "787.d63bd0f0.chunk.js.map": "/MyTravelJournal---React-/static/js/787.d63bd0f0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3449bf8e.css",
-    "static/js/main.a549cb0d.js"
+    "static/css/main.cbd6378a.css",
+    "static/js/main.b87b4a58.js"
   ]
 }
