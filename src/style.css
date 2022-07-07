@@ -56,13 +56,19 @@ span i{
 .card--placeInfo{
   margin: 10px 15px;
   max-width: 500px;
-  text-align: justify;
+  /* text-align: justify; */
 }
 
 .card--location{
   display: flex;
+  flex-direction: row;
   align-items: center;
   margin-left: 15px;
+  flex-wrap: wrap;
+}
+.location--left{
+  display: flex;
+  flex-direction: row;
 }
 
 .card--location i, p , a{
@@ -75,4 +81,3 @@ hr{
   width: 90%;
   background-color: #F55A5A;
 }
-

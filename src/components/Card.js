@@ -9,9 +9,13 @@ export default function Card(props) {
             </div>
             <div className="card--infos">
                 <span className="card--location">
-                    <i class="fa-solid fa-location-dot"></i>
-                    <p>{props.item.location}</p>
-                    <a className="card--linkG" href={props.item.googleMapsUrl}>View on Google Maps</a>
+                    <div className="location--left">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>{props.item.location}</p>
+                    </div>
+                    <div className="location--right">
+                        <a className="card--linkG" href={props.item.googleMapsUrl}>View on Google Maps</a>
+                    </div>
                 </span>
                 <h2 className="card--place">{props.item.title}</h2>
                 <h3 className="card--visitDate">{props.item.startDate} - ${props.item.endDate}</h3>
@@ -19,4 +23,5 @@ export default function Card(props) {
             </div>
         </section>
     )
-} 
+}
+
